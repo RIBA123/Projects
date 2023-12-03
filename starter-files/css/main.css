@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0.9375rem;
+  font-weight: 700;
+}
+
+.left {
+  padding: 50px;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+}
+.left .navbar {
+  padding-block: inherit;
+  margin-right: 75px;
+}
+.left .navbar a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+.left .copy .brainster {
+  font-weight: bold;
+}
+.left a {
+  margin-bottom: 10px;
+}
+.left .copyright {
+  padding-block: inherit;
+  padding-bottom: 50px;
+}
+.left .copy {
+  padding-top: 125px;
+}
+
+.images {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.images .image-container {
+  position: relative;
+  margin: 0.2px;
+  width: 25%;
+}
+.images .image-container img:hover {
+  opacity: 0;
+}
+.images .image-container .image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: gray;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: none;
+}
+.images .image-container .image-text:hover {
+  opacity: 0;
+}
+.images .image-container:hover .image-text {
+  display: block;
+}/*# sourceMappingURL=main.css.map */

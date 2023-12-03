@@ -1,0 +1,39 @@
+$margin: 0.2px;
+$width: 25%;
+
+.images {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+  .image-container {
+    position: relative;
+    margin: $margin;
+    width: $width;
+
+    img {
+      &:hover {
+        opacity: 0;
+      }
+    }
+
+    .image-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: gray;
+      padding: 5px 10px;
+      border-radius: 5px;
+      display: none;
+
+      &:hover {
+        opacity: 0;
+      }
+    }
+
+   &:hover .image-text {
+      display: block;
+    } 
+  }
+}
