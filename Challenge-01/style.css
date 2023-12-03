@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+body{
+
+    padding: 15px;
+    background-color: #638CAA;
+    font-family: 'Times New Roman', Times, serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.logo{
+    position: absolute;
+    height: auto;
+    width: 70px;
+    margin-left: 15%;
+}
+.container {
+    text-align: end;
+    display: inline;
+    
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  li {
+    margin-bottom: 5px;
+    display: inline;
+    margin-right: 10px;
+    padding: 10px;
+    
+    
+  }
+
+  li a {
+    text-decoration: none; 
+    color: white;
+    
+    }
+    li a:hover {
+        text-decoration: underline red;
+        background-color: gray;
+      }
+
+  .apple-devices {
+    display: block;
+    margin: 0 auto; 
+    width: 30%; 
+    text-align: center;
+    padding: 50px; 
+  }
+  p {
+    color: white;
+  }
+  .devices{
+    text-align: center;
+  }
+  .container2 .devices {
+width: 25%;
+float: left;
+
+  }
+  .devices p {
+    color: black;
+    font-weight: 600;
+    
+  }
+  /* colors */
+  .bgcolor {
+    background-color: rgb(219, 219, 219);
+  }
+  .bgcolor2{
+    background-color: rgb(188, 185, 170);
+  }
+  .bgcolor3{
+    background-color: #9ce0d1;
+  }
+.bgcolor4{
+  background-color: #9aa7b8;
+  
+}
+
+.inner{
+background-color: #b7ced6;
+height: 200px;
+}
+ .iPad, .iPhoneX, .iPad-2,  {
+  color: white;
+}
+
+
+  .left {
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+  .right {
+    float: right;
+    width: 50%;
+    text-align: center;
+  }
+img{
+  width: 27%;
+}
+.iPad {
+ background-color: #9aa7b8;
+  
+}
+.iPad-2 {
+  padding-top: 5px;
+  margin-bottom: 15px;
+  
+}
+.iPhoneX, .MacbookAir, .iPad  {
+ height: 200px; 
+ color: white;
+}
+.iPhoneX, .MacbookAir  {
+ 
+  background-color: #bcb9aa;
+  
+}
+.MacbookAir{
+  background-color: #f09e84;
+  
+}
+
+.container4 {
+  width: 100%;
+  
+}
+.container4 .list {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+}
+.color1 {
+  background-color: #bcb9aa;
+}
+.color2 {
+background-color: #9ce0d1;
+}
+.color3 {
+background-color: #9aa7b8;
+}
+.bt {
+padding-top: 20px;
+padding-bottom: 50px;
+}
+h2 {
+  color: white;
+}
+.bt {
+  color: black;
+}
+
+  .icon-link  {
+  display: inline-block;
+  width: 200px;
+  font-size: 1.5rem;
+  color: white;
+  padding: 80px;
+  text-align: center;
+ margin-left: 65px;
+
+ }
+ .Apple2019 {
+  text-align: center;
+  background-color: #514354;
+  height: 60px;
+  padding: 25px;
+  color: white;
+  }
+ 
+
+
+
+
+
+
+
+    
+  
+
+  
+    
+    
+  
+  
