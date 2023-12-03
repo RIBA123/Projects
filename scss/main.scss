@@ -1,0 +1,34 @@
+@import "../bootstrap/functions";
+@import "../bootstrap/variables";
+@import "../bootstrap/bootstrap.scss";
+@import 'bootstrap/scss/bootstrap';
+
+// $custom-colors: (
+//     "new-primary": #173562,
+//     "new-secondary": #adb5bd,
+// );
+// @each $color-name, $color-value in $custom-colors{
+//     .#{$color-name} {
+//         background-color: $color-value
+//     }
+// }
+$custom-colors: (
+    "new-primary":  #fff,
+);
+.nav-link.link-secondary {
+    &:hover {
+      color: white;
+    }
+  }
+  @media (max-width: 767px) {
+    // Media query for mobile devices
+    .position-absolute.bg-primary {
+      top: 10%;
+    }
+  }
+  
+  
+  
+
+
+
