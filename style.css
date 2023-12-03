@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  body {
+    background-color: #272833;
+    color: white;
+  }
+  .logo{
+    position: absolute;
+   padding: 20px;
+   font-size: 15px;
+   
+   
+   
+}
+.container {
+    text-align: end;
+    display: inline;
+    }
+  ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+  }
+  li {
+    
+display: inline;
+   padding: 20px;
+    
+  }
+  li a {
+    text-decoration: none; 
+    
+  }
+  .signup {
+background-color: #f04c65;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 15px;
+  }
+/* colors */
+
+li a, .logo, .container2 {
+    color: white;
+}
+.text1, .text3, .text4 {
+  color: white;
+}
+.container2, .arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:  center;
+    height: 500px;
+   }
+    .text {
+     height: 25px;
+    }
+    .arrow {
+     height: 1%;
+     font-size: 2rem;
+     
+    }
+    .bg1 {
+      background-image: url(./starter-files/images/picture1.jpg);
+    }
+    .height {
+      height: 100vh;
+    }
+.redborder {
+  border-top: 2px solid #e44c65;
+  height: 50%;
+  background-color: rgba(39, 40, 51, .85);
+  
+}
+.positionabsolute {
+position: absolute;
+
+}
+.positionrelative {
+  position: relative;
+}
+.positionbottom {
+  bottom: 0px;
+  padding: 30px;
+  color: white;
+}
+.positionleft {
+  left: 0px;
+  padding: 30px;
+}
+.positionright {
+  right: 0px;
+  padding: 30px;
+}
+.position-middle {
+  left: 50%;
+  transform: translate(-50%, 10%);
+
+}
+.width30 {
+  width: 30%;
+  height: 100%;
+}
+.height100 {
+  height: 100%;
+}
+.width100{
+  width: 100%;
+}
+.bg2{
+background-image: url(./starter-files/images/picture2.jpeg);
+}
+.bg3 {
+  background-image: url(./starter-files/images/picture3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blueborder {
+  border-left: 2px solid rgb(93, 93, 238);
+  height: 100%;
+  width: 30%;
+  background-color: rgba(39, 40, 51, .85);
+}
+.greenborder {
+  border-right: 2px solid rgb(45, 212, 81);
+  height: 100%;
+  width: 30%;
+  background-color: rgba(39, 40, 51, .85);
+}
+.button1{
+  background-color: rgba(39, 40, 51, 0.85);
+  border: 1px solid white;
+  color: white;
+  border-radius: 4px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: medium;
+  margin-top: 100px ;
+}
+.button2 {
+  background-color: rgba(39, 40, 51, 0.85);
+  border: 1px solid white;
+  color: white;
+  border-radius: 4px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: medium;
+  margin-top: 100px ;
+  
+}
+.title, .text6 {
+text-align: center;
+padding-top: 10px;
+
+}
+.darkblue {
+  background-color: rgba(39, 40, 51, 1);
+}
+.fifth {
+  background-color: rgb(39, 40, 51);
+  height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+}
+.heading {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+}
+.slogan ,.icons .slogan {
+  font-weight: 10;
+  padding-top: 20px;
+}
+.icons {
+  padding-top: 70px;
+  font-size: 60px;
+}
+.icon {
+  min-height: 300px;
+  padding: 15px;
+  color: white;
+  margin: auto;
+  text-align: center;
+  float: left;
+  width: 33%;
+}
+.icon2 {
+  border-top: 2px solid #e44c65;
+}
+.icons p {
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+}
+.icon .circle {
+  background-color:rgba(255, 255, 255, .1);
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.button3 {
+  background-color: rgba(39, 40, 51, 0.85);
+  border: 1px solid white;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: medium;
+  margin-top: 100px ;
+ display: flex;
+}
+.title2 {
+  text-align: center;
+  margin-top: 100px;
+  background-color:  #e44c65;
+ height: 50vh;
+ margin-bottom: 50px;
+ padding: 100px;
+ 
+}
+.button4{
+  color: red;
+  height: 30px;
+  
+}
+.social-icons {
+  text-align: center;
+}
+
+.icon-link {
+  display: inline-block;
+  margin: 5px;
+  color: white;
+}
+.copyright {
+  text-align: center;
+}
+
+
