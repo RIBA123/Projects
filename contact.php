@@ -18,7 +18,7 @@
     <!-- Navbar-Section -->
     <div class="navbar-section">
         <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
-            <a href="index.html" class="navbar-brand">Pane Ribarski</a>
+            <a href="index.php" class="navbar-brand">Pane Ribarski</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact</a>
@@ -117,7 +117,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mx-auto text-center">
-                Last update on 17 Jan. 11:47 p.m.
+                Last update on 19 Jan. 4:36 p.m.
                 </div>
             </div>
         </div>
