@@ -84,12 +84,7 @@
                 <input type="tel" class="form-control" name="phoneNumber" placeholder="Enter your phone number"
                     id="phoneNumber">
             </div>
-            <div class="form-group col-md-12  p-2">
-                <label for="location">Location</label>
-                <select class="form-control" name="location" id="location">
-                    <option value="" disabled selected>Select your location</option>
-                </select>
-            </div>
+           
             <div class="form-group col-md-12  p-2">
                 <label for="msg">Message</label>
                 <textarea class="form-control" name="msg" placeholder="Enter your message" id="msg"></textarea>
