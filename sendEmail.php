@@ -1,4 +1,8 @@
 <?php
+// Enable error reporting and display errors for debugging
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 require 'vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -22,7 +26,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $mail->isHTML(true);
 
-       
         $body = "
             <!DOCTYPE html>
             <html lang='en'>
@@ -60,7 +63,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <h2>Message from {$_POST['name']} {$_POST['lastName']}</h2>
                     <p><strong>Email:</strong> {$_POST['email']}</p>
                     <p><strong>Phone Number:</strong> {$_POST['phoneNumber']}</p>
-                    <p><strong>Location:</strong> {$_POST['location']}</p>
                     <p><strong>Message:</strong> {$_POST['msg']}</p>
                 </div>
             </body>
@@ -70,8 +72,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Body = $body;
 
         $mail->send();
+
+        echo "Email sent successfully!";
     } catch (Exception $e) {
-        
+        echo "Error: " . $mail->ErrorInfo;
     }
 }
 ?>
